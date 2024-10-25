@@ -1,8 +1,7 @@
 import streamlit as st
 import pickle
 import os
-
-from streamlit_option_menu import option_menu
+import option_menu
 
 model_path = 'BestModel_CLF_Random Forest_numpy'
 model_path = 'BestModel_REG_Support Vector Regressor_numpy'
