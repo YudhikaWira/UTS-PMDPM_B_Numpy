@@ -4,9 +4,6 @@ import os
 
 from streamlit_option_menu import option_menu
 
-model_path = r'C:\Users\LENOVO\Documents\Semester 5\Pembelajaran mesin dan mendalam\Projek UTS Gasal 20242025-20241020\Project UTS'
-model=os.path.join(model_path,'BestModel_CLF_Random Forest_numpy')
-model=os.path.join(model_path,'BestModel_REG_Support Vector Regressor_numpy')
 
 with st.sidebar:
     selected = option_menu('Tutorial Desain Streamlit UTS ML 24/25',
