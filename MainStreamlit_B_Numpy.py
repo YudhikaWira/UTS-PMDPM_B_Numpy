@@ -4,6 +4,8 @@ import os
 
 from streamlit_option_menu import option_menu
 
+model_path= 'BestModel_CLF_Random Forest_numpy'
+model_path= 'BestModel_REG_Support Vector Regressor_numpy'
 
 with st.sidebar:
     selected = option_menu('Tutorial Desain Streamlit UTS ML 24/25',
